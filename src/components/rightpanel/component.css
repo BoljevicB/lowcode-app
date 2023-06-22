@@ -1,0 +1,19 @@
+.contrasting {
+    width: 48px;
+    height: 19px;
+    font-size: 12px;
+    color: #CAC4D0;
+}
+
+.value_contrast {
+    width: 32px;
+    height: 29px;
+    border-radius: 5px;
+    border: #CAC4D0 solid 2px ;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #CAC4D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
