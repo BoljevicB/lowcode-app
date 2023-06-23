@@ -3,7 +3,8 @@ import './component.css'
 
 const Valuecontr = () => {
   return (
-    <div className='value_contrast'> 23 </div>
+    <div className='value_contrast'> 23 
+    </div>
   )
 }
 

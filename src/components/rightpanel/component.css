@@ -17,3 +17,22 @@
     align-items: center;
     justify-content: center;
 }
+
+
+.download_icon {
+    position: relative;
+    bottom: 27px;
+    left: 4px;
+}
+
+.download_icon1 {
+    position: relative;
+    bottom: 27px;
+    left: 4px;
+}
+
+.download_icon2 {
+    position: relative;
+    bottom: 27px;
+    left: 4px;
+}
