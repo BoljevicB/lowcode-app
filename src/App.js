@@ -1,7 +1,8 @@
 import React from 'react';
 import {ThemeProvider} from '@primer/react'
 import './App.css'
-import Rightpanel from './components/rightpanel/Rightpanel';
+import Mainscreen from './components/mainscreen/Mainscreen';
+import Rightpanel from './components/rightpanel/Rightpanel'
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
 
       <Rightpanel/>
+      <Mainscreen/>
     
     </div>
     </ThemeProvider>
