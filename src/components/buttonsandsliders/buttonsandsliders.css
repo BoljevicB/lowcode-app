@@ -1,0 +1,22 @@
+.home_button {
+    width: 31px;
+    height: 31px;
+    border-radius: 24px;
+    background-color: #2F2F2F;
+    display: flex;
+    align-items: center; 
+    justify-items: center;
+    box-sizing: border-box;
+}
+
+.download_button {
+    width: 31px;
+    height: 31px;
+    border-radius: 24px;
+    background-color: #2F2F2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 1px rgb(53, 52, 52));
+}
+

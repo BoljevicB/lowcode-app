@@ -6,19 +6,21 @@ function valuetext(value) {
   return `${value}`;
 }
 
-export default function Knob() {
+export default function Sliderdark() {
   return (
-    <Box sx={{ width: 300 }}>
-      <Slider className='slider'
-      
+    <Box sx={{ width: 164 }}>
+     
+      <Slider
+        
         defaultValue={30}
         getAriaValueText={valuetext}
         color="secondary"
-        sx= {{
-            width: 99.
-          }}
-        
+        step={10}
+        marks
+        min={0}
+        max={100}
       />
+
     </Box>
   );
 }

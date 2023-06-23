@@ -2,12 +2,14 @@ import React from 'react'
 import './component.css'
 import {DownloadIcon} from '@primer/octicons-react'
 import Imageexample from '../../imgs/image_example.png'
+import IconButton from '@mui/material/IconButton';
 
 
 const Download = () => {
   return (
     <div className='download_image'>
         <img src={Imageexample} alt="example" />
+        
         <DownloadIcon className='download_icon' size={18} fill='#CAC4D0' />
     
     </div>
