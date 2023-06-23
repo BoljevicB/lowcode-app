@@ -6,6 +6,8 @@
     background-color: #292929;
 }
 
+/* Left panel on MainScreen (Главный экран)  */
+
 .main_screen_panel {
    width: 167px;
    height: 390px;
@@ -36,6 +38,8 @@
     flex-direction: column;
     gap: 15px;
 }
+
+/* Мои проекты: MainScreen (Главный экран)  */
 
 .Main_projects {
     display: flex;
@@ -120,6 +124,7 @@
     top: 16px;
 }
 
+/* Мои шаблоны: MainScreen (Главный экран)  */
 
 .Main_schemes {
     display: flex;

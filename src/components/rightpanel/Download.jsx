@@ -1,6 +1,8 @@
 import React from 'react'
+import './component.css'
 import {DownloadIcon} from '@primer/octicons-react'
 import Imageexample from '../../imgs/image_example.png'
+
 
 const Download = () => {
   return (
