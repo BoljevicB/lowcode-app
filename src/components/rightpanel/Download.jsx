@@ -7,7 +7,7 @@ import Imageexample from '../../imgs/image_example.png'
 const Download = () => {
   return (
     <div className='download_image'>
-        <img src={Imageexample} alt="Image" />
+        <img src={Imageexample} alt="example" />
         <DownloadIcon className='download_icon' size={18} fill='#CAC4D0' />
     
     </div>

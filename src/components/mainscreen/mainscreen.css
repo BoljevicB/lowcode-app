@@ -1,6 +1,5 @@
 .Mainscreen {
     display: flex;
-    align-items: start;
     justify-content: flex-start;
     box-sizing: border-box;
     background-color: #292929;
