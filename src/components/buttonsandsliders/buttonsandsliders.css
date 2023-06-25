@@ -21,7 +21,6 @@
 }
 
 .upload_button {
-    margin: 50px;
     width: 116px;
     height: 56px;
     background-color: #403F40;
@@ -40,3 +39,47 @@
     font-size: 14px;
 }
 
+.contrast_range_button {
+    width: 155px;
+    height: 56px;
+    background-color: #403F40;
+    color: #CAC4D0;
+    border-radius: 100px;
+    font-size: 14px;
+}
+
+.connect_button {
+    width: 92px;
+    height: 26px;
+    color: #BB86FC;
+    background-color: #3A3442;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.remove_connect_button {
+    width: 99px;
+    height: 26px;
+    color: #BB86FC;
+    background-color: #3A3442;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.trash_button {
+    width: 99px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: #3A3442;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insert_node_button {
+    width: 122px;
+    height: 56px;
+    border: #BB86FC dotted 2px;
+    border-radius: 100px;
+    color: #CAC4D0;
+}

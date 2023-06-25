@@ -11,7 +11,7 @@ export default function Sliderdark() {
     <Box sx={{ width: 164 }}>
      
       <Slider
-        
+        valueLabelDisplay="auto"
         defaultValue={30}
         getAriaValueText={valuetext}
         color="secondary"

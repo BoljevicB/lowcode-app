@@ -14,6 +14,13 @@ import Nodsbutton from './components/leftpanel/Nodsbutton';
 import Pursenode from './components/leftpanel/Pursenode';
 import Upload from './components/buttonsandsliders/Upload';
 import Contrbutton from './components/buttonsandsliders/Contrbutton';
+import Contrastscale from './components/buttonsandsliders/Contrastscale';
+import Connect from './components/buttonsandsliders/Connect';
+import Removeconnect from './components/buttonsandsliders/Removeconnect';
+import Trashbutton from './components/buttonsandsliders/Trashbutton';
+import Insertnode from './components/buttonsandsliders/Insertnode';
+
+
 
 
 function App() {
@@ -21,7 +28,7 @@ function App() {
     <ThemeProvider>
     <div className="App">
 
-      {/* <Rightpanel/> 
+      <Rightpanel/> 
       <Mainscreen/> 
       <Downloadbutton/>
       <Homebutton/>
@@ -31,10 +38,15 @@ function App() {
       <Colorbalance/>
       <Contrast/>
       <Nodsbutton/>
-      <Pursenode/> */}
-
+      <Pursenode/>
       <Upload/>
       <Contrbutton/>
+      <Contrastscale/>
+      <Connect/>
+      <Removeconnect/>
+      <Trashbutton/>
+      <Insertnode/>
+      
   
     
     </div>
