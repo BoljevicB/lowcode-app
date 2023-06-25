@@ -7,7 +7,9 @@ const Download2 = () => {
   return (
     <div className='download_image'>
         <img src={Imageexample} alt="example" />
+        <button>
         <DownloadIcon className='download_icon2' size={18} fill='#CAC4D0' />
+        </button>
     
     </div>
   )

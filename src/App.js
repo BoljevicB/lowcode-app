@@ -7,6 +7,13 @@ import Sliderdark from './components/buttonsandsliders/Sliderdark';
 import Playbutton from './components/buttonsandsliders/Playbutton';
 import Rightpanel from './components/rightpanel/Rightpanel'
 import Homebutton from './components/buttonsandsliders/Homebutton';
+import Blur from './components/leftpanel/Blur';
+import Colorbalance from './components/leftpanel/Colorbalance';
+import Contrast from './components/leftpanel/Contrast';
+import Nodsbutton from './components/leftpanel/Nodsbutton';
+import Pursenode from './components/leftpanel/Pursenode';
+import Upload from './components/buttonsandsliders/Upload';
+import Contrbutton from './components/buttonsandsliders/Contrbutton';
 
 
 function App() {
@@ -14,13 +21,20 @@ function App() {
     <ThemeProvider>
     <div className="App">
 
-      <Rightpanel/>
-      <Mainscreen/>
+      {/* <Rightpanel/> 
+      <Mainscreen/> 
       <Downloadbutton/>
       <Homebutton/>
       <Playbutton/>
       <Sliderdark/>
-      
+      <Blur/>
+      <Colorbalance/>
+      <Contrast/>
+      <Nodsbutton/>
+      <Pursenode/> */}
+
+      <Upload/>
+      <Contrbutton/>
   
     
     </div>

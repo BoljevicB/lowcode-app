@@ -68,14 +68,15 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
 }
 
 .for_telegram_text {
     font-size: 12px;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     color: #CAC4D0;
+    
 }
 
 .for_vk_node {
@@ -88,7 +89,7 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
 }
 
 .for_vk_text {
@@ -108,20 +109,17 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
 }
 
 .replace_img_text {
     font-size: 12px;
     display: flex;
-    gap: 10px;
+    padding-left: 7px;
     color: #CAC4D0;
 }
 
-.replace_icon {
-    position: relative;
-    top: 16px;
-}
+
 
 /* Мои шаблоны: MainScreen (Главный экран)  */
 
@@ -154,7 +152,7 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
 }
 
 .all_zero_text {
@@ -174,13 +172,13 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
 }
 
 .all_hundred_text {
     font-size: 12px;
     display: flex;
-    gap: 30px;
+    gap: 20px;
     color: #CAC4D0;
 }
 
@@ -194,7 +192,7 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
 }
 
 .all_other_text {

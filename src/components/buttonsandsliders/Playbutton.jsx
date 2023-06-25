@@ -9,7 +9,13 @@ const Playbutton = () => {
 
         <IconButton >
             
-            <PlayArrowIcon color="disabled"/>
+            <PlayArrowIcon 
+
+            sx={{ 
+              color: "#CAC4D0", 
+            }}
+            />
+            
 
         </IconButton>
 
