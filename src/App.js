@@ -19,6 +19,11 @@ import Connect from './components/buttonsandsliders/Connect';
 import Removeconnect from './components/buttonsandsliders/Removeconnect';
 import Trashbutton from './components/buttonsandsliders/Trashbutton';
 import Insertnode from './components/buttonsandsliders/Insertnode';
+import Schemesleft from './components/leftpanel/Schemesleft';
+import Listbullet from './components/leftpanel/Listbullet';
+import Allhundredleft from './components/leftpanel/Allhundredleft';
+import Allzeroleft from './components/leftpanel/Allzeroleft';
+import Modulescreen from './components/modulescreen/Modulescreen';
 
 
 
@@ -28,7 +33,7 @@ function App() {
     <ThemeProvider>
     <div className="App">
 
-      <Rightpanel/> 
+      {/* <Rightpanel/> 
       <Mainscreen/> 
       <Downloadbutton/>
       <Homebutton/>
@@ -46,7 +51,12 @@ function App() {
       <Removeconnect/>
       <Trashbutton/>
       <Insertnode/>
-      
+      <Schemesleft/>
+      <Listbullet/>
+      <Allhundredleft/>
+      <Allzeroleft/> */}
+
+      <Modulescreen/>
   
     
     </div>
