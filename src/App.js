@@ -24,6 +24,7 @@ import Listbullet from './components/leftpanel/Listbullet';
 import Allhundredleft from './components/leftpanel/Allhundredleft';
 import Allzeroleft from './components/leftpanel/Allzeroleft';
 import Modulescreen from './components/modulescreen/Modulescreen';
+import Importleft from './components/leftpanel/Importleft';
 
 
 
@@ -33,7 +34,7 @@ function App() {
     <ThemeProvider>
     <div className="App">
 
-      {/* <Rightpanel/> 
+      <Rightpanel/> 
       <Mainscreen/> 
       <Downloadbutton/>
       <Homebutton/>
@@ -53,10 +54,11 @@ function App() {
       <Insertnode/>
       <Schemesleft/>
       <Listbullet/>
+      <Importleft/>
       <Allhundredleft/>
-      <Allzeroleft/> */}
+      <Allzeroleft/>
+      
 
-      <Modulescreen/>
   
     
     </div>
