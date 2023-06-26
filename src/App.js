@@ -24,6 +24,15 @@ import Listbullet from './components/leftpanel/Listbullet';
 import Allhundredleft from './components/leftpanel/Allhundredleft';
 import Allzeroleft from './components/leftpanel/Allzeroleft';
 import Importleft from './components/leftpanel/Importleft';
+import Noise from './components/buttonsandsliders/Noise';
+import Blurbutton from './components/buttonsandsliders/Blurbutton';
+import Schemeallhundred from './components/buttonsandsliders/Schemeallhundred';
+import Save from './components/buttonsandsliders/Save';
+import Yesbutton from './components/buttonsandsliders/Yesbutton';
+import Rejectbutton from './components/buttonsandsliders/Rejectbutton';
+import Textfield from './components/buttonsandsliders/Textfield';
+import Namenewproject from './components/popups/Namenewproject';
+import Renameproject from './components/popups/Renameproject';
 
 // import Modulescreen from './components/modulescreen/Modulescreen';
 
@@ -35,7 +44,7 @@ function App() {
     <ThemeProvider>
     <div className="App">
 
-      <Rightpanel/> 
+      {/* <Rightpanel/> 
       <Mainscreen/> 
       <Downloadbutton/>
       <Homebutton/>
@@ -58,7 +67,16 @@ function App() {
       <Importleft/>
       <Allhundredleft/>
       <Allzeroleft/>
-      
+      <Noise/>
+      <Blurbutton/>
+      <Schemeallhundred/>
+      <Save/>
+      <Yesbutton/>
+      <Rejectbutton/>
+      <Textfield/> */}
+
+      <Namenewproject/>
+      <Renameproject/>
 
   
     

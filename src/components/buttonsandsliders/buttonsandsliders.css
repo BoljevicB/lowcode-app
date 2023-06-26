@@ -5,7 +5,7 @@
     background-color: #2F2F2F;
     display: flex;
     align-items: center; 
-    justify-items: center;
+    justify-content: center;
     box-sizing: border-box;
 }
 
@@ -27,7 +27,7 @@
     color: #CAC4D0;
     border-radius: 0 100px 100px 0;
     font-size: 14px;
-}
+} 
 
 .contrast_button {
     width: 122px;
@@ -46,6 +46,40 @@
     color: #CAC4D0;
     border-radius: 100px;
     font-size: 14px;
+    text-align: center;
+}
+
+.noise_button {
+    width: 114px;
+    height: 52px;
+    background-color: #403F40;
+    color: #CAC4D0;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.blur_button {
+    width: 114px;
+    height: 52px;
+    background-color: #403F40;
+    color: #CAC4D0;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.scheme_all_hundred_button {
+    width: 155px;
+    height: 68px;
+    border-radius: 100px;
+    background-color: #4A4458;
+    color: #CAC4D0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .connect_button {
@@ -82,4 +116,30 @@
     border: #BB86FC dotted 2px;
     border-radius: 100px;
     color: #CAC4D0;
+}
+
+.save_button {
+    width: 99px;
+    height: 31px;
+    border-radius: 100px;
+    background-color: #3A3442;
+    color: #BB86FC;
+    font-size: 12px;
+}
+
+.yes_button {
+    width: 99px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #D0BCFF;
+    color: #381E72;
+}
+
+.reject_button {
+    width: 99px;
+    height: 40px;
+    border-radius: 100px;
+    color: #D0BCFF;
+    background-color: transparent;
+    border: 1px solid #938F99 ;
 }

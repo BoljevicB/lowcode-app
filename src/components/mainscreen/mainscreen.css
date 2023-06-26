@@ -13,13 +13,13 @@
    background-color: #2E2E2E;
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
+   justify-content: space-between;
    flex-direction: column;
 }
 
 .main_screen_panel_heading {
     color: #CAC4D0;
-    padding-bottom: 27px;
+   margin-bottom: 100px;
 }
 
 .main_screen_panel_button {
@@ -27,7 +27,8 @@
     height: 27px;
     font-size: 12px;
     border-radius: 6px;
-    color: #103D87;
+    margin: 20px 0 10px 0;
+    color: #CAC4D0;
     background-color: #635F6C;
     filter: drop-shadow(0 0 0.20rem rgb(24, 23, 23));
 }
@@ -35,7 +36,7 @@
 .left_panel_import_projects {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 23px;
 }
 
 /* Мои проекты: MainScreen (Главный экран)  */
