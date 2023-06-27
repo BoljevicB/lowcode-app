@@ -16,7 +16,7 @@ function Rightpanel() {
   return (
     
     <div className="right_panel">
-      <div className='top_container'>
+      <div className='top_container_right_panel'>
       <Chevronright/>
       <Trash/>
       </div>

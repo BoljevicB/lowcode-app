@@ -36,8 +36,9 @@ import Renameproject from './components/popups/Renameproject';
 import Saveproject from './components/popups/Saveproject';
 import Savescheme from './components/popups/Savescheme';
 import Deleteproject from './components/popups/Deleteproject';
+import Leftpanel from './components/leftpanel/Leftpanel';
 
-// import Modulescreen from './components/modulescreen/Modulescreen';
+import Modulescreen from './components/modulescreen/Modulescreen';
 
 
 
@@ -47,7 +48,7 @@ function App() {
     <ThemeProvider>
     <div className="App">
 
-      <Rightpanel/> 
+      {/* <Rightpanel/> 
       <Mainscreen/> 
       <Downloadbutton/>
       <Homebutton/>
@@ -76,14 +77,13 @@ function App() {
       <Save/>
       <Yesbutton/>
       <Rejectbutton/>
-      <Textfield/>
       <Namenewproject/>
       <Renameproject/>
       <Saveproject/>
       <Savescheme/>
-      <Deleteproject/>
+      <Deleteproject/> */}
 
-  
+      <Modulescreen/>
     
     </div>
     </ThemeProvider>
