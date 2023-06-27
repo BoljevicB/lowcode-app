@@ -19,7 +19,13 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
+    gap: 40px;
     padding-top: 20px;
+}
+
+.module_change_img_heading {
+    color: #CAC4D0;
+    padding-left: 80px;
 }
 
 .module_play_download {

@@ -19,7 +19,7 @@ const Modulescreen = () => {
 
       <div className='module_top_buttons'>
       <Homebutton className='module_home_button'/>
-      <p className='text-white'>Изменение изображения</p>
+      <p className='module_change_img_heading'>Изменение изображения</p>
       
       <div className='module_play_download'>
       <Playbutton className='module_play_button'/>
