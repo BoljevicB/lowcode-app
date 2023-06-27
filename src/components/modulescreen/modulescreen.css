@@ -65,3 +65,15 @@
 .module_right_panel {
     grid-area: module_right_button_panel;
 }
+
+
+  *::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #979797;
+    border-radius: 2px;
+  }
+
+  

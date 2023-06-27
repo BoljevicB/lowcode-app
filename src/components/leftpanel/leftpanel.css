@@ -8,14 +8,14 @@
     background-color: #2e2e2e;
 }
 
-.top_container {
+.left_panel_top_container {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   margin-left: -10px;
 }
 
-.bottom_container {
+.left_panel_bottom_container {
 display: flex;
 align-items: center;
 justify-content: center;
@@ -24,7 +24,7 @@ padding-top: 10px;
 gap: 10px;
 }
 
-.line_container {
+.left_panel_line_container {
  padding: 10px;
 }
 
